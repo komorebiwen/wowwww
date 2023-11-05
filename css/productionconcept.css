@@ -1,0 +1,82 @@
+/* styles.css */
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+  font-family: 'cwTeXYen', sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.page-title {
+  display: inline-block; /* 讓標題以 inline-block 方式顯示 */
+  vertical-align: middle; /* 垂直置中 */
+}
+
+.logo-link {
+  display: inline-block; /* 讓 logo 以 inline-block 方式顯示 */
+  vertical-align: middle; /* 垂直置中 */
+}
+
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+ul {
+  font-size: 25px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #666;
+}
+
+title {
+  font-size: 25px;
+}
