@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body {
+  font-family: 'cwTeXYen', sans-serif;
+}
+
+.container {
+  background-color: #57028d;
+  color: #ffffff;
+  padding: 20px;
+  width: 66%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subscribe-info {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.subscribe-info h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+audio {
+  display: block;
+  margin: 8em auto;
+}
+
+.subscribe-info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.subscribe-info li {
+  margin-bottom: 5px;
+}
+
+.more-content {
+  display: none;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
