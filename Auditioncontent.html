@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>付費解鎖更多白噪音</title>
+  <link rel="stylesheet" href="css/Auditioncontent.css">
+</head>
+<body>
+ <nav>
+    <ul>
+      <li><a href="whitenoise.html">回首頁</a></li>
+     
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>白噪音試聽</h1>
+    <div class="subscribe-info">
+</div>
+    <p>這裡是一些白噪音的試聽內容。如果你想要嘗試聆聽白噪音，請<a href="#" onclick="showMoreContent();">點選試聽</a>。</p>
+    <div id="more-content" class="more-content">
+      <h2>白噪音試聽內容</h2>
+      <audio src="music/夏日海灘.mp3" controls></audio>
+      <audio src="music/黃昏的森林裡.mp3" controls></audio>
+      <audio src="music/風.mp3" controls></audio>
+      <audio src="music/急速的空氣.mp3" controls></audio>
+      <audio src="music/狂風暴雨.mp3" controls></audio>
+      <p>在這裡你可以找到更多的白噪音!如果你想要解鎖更多內容，請<a href="付費解鎖更多.html">點擊這裡</a>。</p>
+    </div>
+  </div>
+  <script>
+    function showMoreContent() {
+      var moreContent = document.getElementById('more-content');
+      moreContent.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
